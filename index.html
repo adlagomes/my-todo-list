@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>To-Doooo!</title>
+</head>
+<body>
+  <header>
+    <img src="./assets/logo.svg" alt="logo" class="logo">
+  </header>
+  <main>
+    <div class="form-search-todo">
+      <form>
+        <label>
+          <input type="text" name="search" placeholder="Buscar to-do">
+        </label>
+      </form>
+    </div>
+    <div>
+      <ul class="todos-container">
+        <li style="display: flex; justify-content: space-between;" data-todo="Assistir Breaking Bad">
+          <span>- Adicione uma tarefa</span>
+          <img src="./assets/trash.svg" alt="trash" class="trash-icon" data-trash="Assistir Breaking Bad">
+        </li>
+        <li style="display: flex; justify-content: space-between;" data-todo="Lavar roupa">
+          <span>- tente excluir uma tarefa</span>
+          <img src="./assets/trash.svg" alt="trash" class="trash-icon" data-trash="Lavar roupa">
+        </li>
+        <li style="display: flex; justify-content: space-between;" data-todo="Estudar funções de callback">
+          <span>- Busque por uma tarefa</span>
+          <img src="./assets/trash.svg" alt="trash" class="trash-icon" data-trash="Estudar funções de callback">
+        </li>
+      </ul>
+    </div>
+    <div class="form-add-todo">
+      <form type="submit">
+        <label>Adicionar to-do</label>
+        <input type="text" name="add" autofocus>
+      </form>
+    </div>
+  </main>
+  <footer>Prática do curso CJRM - 2023 | Adla Gomes ♥</footer>
+  <script src="app.js"></script>
+</body>
+</html>
