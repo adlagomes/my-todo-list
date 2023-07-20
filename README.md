@@ -1,6 +1,8 @@
 # To-Do List
 To-do list desenvolvido como prática do curso CJRM para fixar os assuntos estudados.
 
+[Clique aqui para testar!](https://tooodo-list.vercel.app/)
+
 ### ~ :gear: Tecnologias <a name="-tecnologias"></a>
   - JavaScrip
   - HTML5
